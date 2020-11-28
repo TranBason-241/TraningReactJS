@@ -6,6 +6,9 @@ import HandleEven from './HandleEvent/HandleEven';
 import DemoState from './DemoState/DemoState';
 import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 import RenderWithMap from './RenderWithMap/RenderWithMap';
+import DanhSachPhim from './BaiTapRenderDanhSachPhim/DanhSachPhim';
+import DemoDrops from './Props/DemoDrops';
+import DemoDropsRCC from './Props/DemoDropsRCC';
 
 function App() {
   return (
@@ -16,7 +19,10 @@ function App() {
 {/* <HandleEven/> */}
 {/* <DemoState/> */}
 {/* <BaiTapChonXe/> */}
-<RenderWithMap/>
+{/* <RenderWithMap/> */}
+{/* <DanhSachPhim/> */}
+{/* <DemoDrops/> */}
+<DemoDropsRCC/>
     </div>
   );
 }
